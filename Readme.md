@@ -11,7 +11,7 @@ Manually:
 1. `go get github.com/kvn-media/tasks`
 1. change dir to the respective folder and create the db file: `cat schema.sql | sqlite3 tasks.db`
 1. run `go build`
-1. `./Tasks`
+1. `./tasks`
 1. open [localhost:8081](http://localhost:8081)
 
 You can change the port in the [config](https://github.com/kvn-media/tasks/blob/master/config.json) file
